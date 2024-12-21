@@ -1,0 +1,10 @@
+[project]
+name = "Template"
+version = "0.1.0"
+description = "Template"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mkdocs==1.6.1",
+    "mkdocs-material==9.5.49",
+]
