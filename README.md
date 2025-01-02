@@ -14,8 +14,6 @@ Template repository for an mkdocs project.
 
 If you would like to use this template repository as is. You can create a repository via GitHub using this repository as the template.
 
-![GitHub templates](./assets/GH_TEMPLATES.png)
-
 ### Method 2: Monorepo
 
 If you would like to integrate this into an already existing repository or a repository that will be a monorepo. You can use the following commands to do so.
@@ -23,11 +21,18 @@ If you would like to integrate this into an already existing repository or a rep
 **NOTE: You will require `git` and `npm` to be installed.**
 
 ```bash
-git clone git@github.com:Evanlab02/mkdocs-template.git <PATH_IN_YOUR_MONO_REPO>
-npx degit <PATH_IN_YOUR_MONO_REPO>
+npx degit git@github.com:Evanlab02/mkdocs-template.git <PATH_IN_YOUR_MONO_REPO>
 cd <PATH_IN_YOUR_MONO_REPO>
 make fresh
 ```
+
+#### Method 2 - Post clone - Workflows
+
+**You will need to update move and update the workflows to match the new structure.** 
+
+- You can change `working-directory` in the workflows to match the path you cloned the repository into.
+- You can change `cache-dependency-glob` in the workflows to be prefixed with the path you cloned the repository into.
+- You can change all references to `trunk` to the name of your main branch.
 
 ## Post setup
 

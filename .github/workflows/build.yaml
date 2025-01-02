@@ -1,0 +1,42 @@
+name: Build
+
+on:
+  pull_request:
+    branches: [trunk]
+  push:
+    branches: [trunk]
+
+permissions:
+  contents: read
+
+env:
+  UV_SYSTEM_PYTHON: 1
+
+jobs:
+  documentation:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: .
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip"
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+
+      - name: Install dependencies
+        run: |
+          uv sync
+
+      - name: Create/Build Documentation
+        run: |
+          uv run mkdocs build
