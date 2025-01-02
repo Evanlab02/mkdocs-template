@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/Evanlab02/mkdocs-template/compare/v1.2.1...v1.2.2) (2025-01-02)
+
+
+### Bug Fixes
+
+* Add empty makefile documentation ([3feb445](https://github.com/Evanlab02/mkdocs-template/commit/3feb445b88d93d06d810707e5cd3940efa21ca16))
+
 ## [1.2.1](https://github.com/Evanlab02/mkdocs-template/compare/v1.2.0...v1.2.1) (2025-01-02)
 
 
