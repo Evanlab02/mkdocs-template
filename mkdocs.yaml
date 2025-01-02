@@ -46,3 +46,4 @@ theme:
 
 nav:
   - Home: index.md
+  - Workflows: github/workflows.md
