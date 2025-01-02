@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/Evanlab02/mkdocs-template/compare/v1.1.0...v1.2.0) (2025-01-02)
+
+
+### Features
+
+* **Workflows:** Add some documentation on the workflows/actions ([9b764d0](https://github.com/Evanlab02/mkdocs-template/commit/9b764d0beda5da0f2b364d1e9415d9d11c5ea4ae))
+
 ## [1.1.0](https://github.com/Evanlab02/mkdocs-template/compare/v1.0.0...v1.1.0) (2025-01-02)
 
 
