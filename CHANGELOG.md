@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/Evanlab02/mkdocs-template/compare/v1.2.0...v1.2.1) (2025-01-02)
+
+
+### Bug Fixes
+
+* **Workflows:** Synchronize changes before attempting a deploy ([ffe45d2](https://github.com/Evanlab02/mkdocs-template/commit/ffe45d2b4398571168a9fd66d715130b3687ee62))
+
 ## [1.2.0](https://github.com/Evanlab02/mkdocs-template/compare/v1.1.0...v1.2.0) (2025-01-02)
 
 
