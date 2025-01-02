@@ -3,7 +3,7 @@ name: Build
 on:
   pull_request:
     branches: [trunk]
-    types: [ready_for_review]
+    types: [ready_for_review, opened, reopened]
   push:
     branches: [trunk]
 
