@@ -46,4 +46,7 @@ theme:
 
 nav:
   - Home: index.md
+  - Development:
+    - Makefile: dev/makefile.md
   - Workflows: github/workflows.md
+  

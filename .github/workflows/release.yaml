@@ -100,5 +100,5 @@ jobs:
 
       - name: Deploy Documentation
         run: |
-          uv run mike deploy --push --update-aliases ${{ needs.release-please.outputs.tag_name }} latest
-          uv run mike set-default --push latest
+          uv run mike deploy --allow-empty --push --update-aliases ${{ needs.release-please.outputs.tag_name }} latest
+          uv run mike set-default --allow-empty --push latest
