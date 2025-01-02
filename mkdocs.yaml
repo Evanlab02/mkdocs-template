@@ -1,7 +1,12 @@
 site_name: Template
+site_url: 'https://evanlab02.github.io/mkdocs-template/'
 plugins:
   - search
   
+extra:
+  version:
+    provider: mike
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true

@@ -96,4 +96,5 @@ jobs:
 
       - name: Deploy Documentation
         run: |
-          uv run mkdocs gh-deploy --force
+          uv run mike deploy --push --update-aliases ${{ needs.release-please.outputs.tag_name }} latest
+          uv run mike set-default --push latest
