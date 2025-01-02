@@ -94,6 +94,10 @@ jobs:
         run: |
           uv sync
 
+      - name: Sync Changes
+        run: |
+          git fetch
+
       - name: Deploy Documentation
         run: |
           uv run mike deploy --push --update-aliases ${{ needs.release-please.outputs.tag_name }} latest
