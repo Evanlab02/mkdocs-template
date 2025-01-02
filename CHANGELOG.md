@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/Evanlab02/mkdocs-template/compare/v1.0.0...v1.1.0) (2025-01-02)
+
+
+### Features
+
+* Add versioning to documentation ([191aefd](https://github.com/Evanlab02/mkdocs-template/commit/191aefd1d8aeaf21c83cb9f070ba1462d0d5ac82))
+
 ## 1.0.0 (2025-01-02)
 
 
